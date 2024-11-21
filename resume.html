@@ -51,7 +51,7 @@
                                 <div class="form-elem">
                                     <label for="" class="form-label">First Name</label>
                                     <input name="firstname" type="text" class="form-control firstname" id=""
-                                        onkeyup="generateCV()" placeholder="e.g. John" autocomplete="off">
+                                        onkeyup="generateCV()" placeholder="e.g. John" autocomplete="off" required>
                                     <span class="form-text"></span>
                                 </div>
                                 <div class="form-elem">
@@ -64,7 +64,7 @@
                                 <div class="form-elem">
                                     <label for="" class="form-label">Last Name</label>
                                     <input name="lastname" type="text" class="form-control lastname" id=""
-                                        onkeyup="generateCV()" placeholder="e.g. Doe" autocomplete="off">
+                                        onkeyup="generateCV()" placeholder="e.g. Doe" autocomplete="off" required>
                                     <span class="form-text"></span>
                                 </div>
                             </div>
@@ -73,18 +73,20 @@
                                 <div class="form-elem">
                                     <label for="" class="form-label">Your Image</label>
                                     <input name="image" type="file" class="form-control image" id="" accept="image/*"
-                                        onchange="previewImage()">
+                                        onchange="previewImage()" required>
                                 </div>
                                 <div class="form-elem">
                                     <label for="" class="form-label">Designation</label>
                                     <input name="designation" type="text" class="form-control designation" id=""
-                                        onkeyup="generateCV()" placeholder="e.g. Sr.Accountants" autocomplete="off">
+                                        onkeyup="generateCV()" placeholder="e.g. Sr.Accountants" autocomplete="off"
+                                        required>
                                     <span class="form-text"></span>
                                 </div>
                                 <div class="form-elem">
                                     <label for="" class="form-label">Address</label>
                                     <input name="address" type="text" class="form-control address" id=""
-                                        onkeyup="generateCV()" placeholder="e.g. Lake Street-23" autocomplete="off">
+                                        onkeyup="generateCV()" placeholder="e.g. Lake Street-23" autocomplete="off"
+                                        required>
                                     <span class="form-text"></span>
                                 </div>
                             </div>
@@ -93,20 +95,21 @@
                                 <div class="form-elem">
                                     <label for="" class="form-label">Email</label>
                                     <input name="email" type="text" class="form-control email" id=""
-                                        onkeyup="generateCV()" placeholder="e.g. johndoe@gmail.com" autocomplete="off">
+                                        onkeyup="generateCV()" placeholder="e.g. johndoe@gmail.com" autocomplete="off"
+                                        required>
                                     <span class="form-text"></span>
                                 </div>
                                 <div class="form-elem">
                                     <label for="" class="form-label">Phone No:</label>
                                     <input name="phoneno" type="text" class="form-control phoneno" id=""
                                         onkeyup="generateCV()" placeholder="e.g. 456-768-798, 567.654.002"
-                                        autocomplete="off">
+                                        autocomplete="off" required>
                                     <span class="form-text"></span>
                                 </div>
                                 <div class="form-elem">
                                     <label for="" class="form-label">Summary</label>
                                     <input name="summary" type="text" class="form-control summary" id=""
-                                        onkeyup="generateCV()" placeholder="e.g. Doe" autocomplete="off">
+                                        onkeyup="generateCV()" placeholder="e.g. Doe" autocomplete="off" required>
                                     <span class="form-text"></span>
                                 </div>
                             </div>
@@ -129,15 +132,15 @@
                                                 <label for="" class="form-label">Title</label>
                                                 <input name="achieve_title" type="text"
                                                     class="form-control achieve_title" id="" onkeyup="generateCV()"
-                                                    placeholder="e.g. johndoe@gmail.com" autocomplete="off">
+                                                    placeholder="e.g. abc" autocomplete="off" required>
                                                 <span class="form-text"></span>
                                             </div>
                                             <div class="form-elem">
                                                 <label for="" class="form-label">Description</label>
                                                 <input name="achieve_description" type="text"
                                                     class="form-control achieve_description" id=""
-                                                    onkeyup="generateCV()" placeholder="e.g. johndoe@gmail.com"
-                                                    autocomplete="off">
+                                                    onkeyup="generateCV()" placeholder="e.g. abc" autocomplete="off"
+                                                    required>
                                                 <span class="form-text"></span>
                                             </div>
                                         </div>
@@ -165,20 +168,20 @@
                                             <div class="form-elem">
                                                 <label for="" class="form-label">Title</label>
                                                 <input name="exp_title" type="text" class="form-control exp_title" id=""
-                                                    onkeyup="generateCV()" autocomplete="off">
+                                                    onkeyup="generateCV()" autocomplete="off" required>
                                                 <span class="form-text"></span>
                                             </div>
                                             <div class="form-elem">
                                                 <label for="" class="form-label">Company / Organization</label>
                                                 <input name="exp_organization" type="text"
                                                     class="form-control exp_organization" id="" onkeyup="generateCV()"
-                                                    autocomplete="off">
+                                                    autocomplete="off" required>
                                                 <span class="form-text"></span>
                                             </div>
                                             <div class="form-elem">
                                                 <label for="" class="form-label">Location</label>
                                                 <input name="exp_location" type="text" class="form-control exp_location"
-                                                    id="" onkeyup="generateCV()" autocomplete="off">
+                                                    id="" onkeyup="generateCV()" autocomplete="off" required>
                                                 <span class="form-text"></span>
                                             </div>
                                         </div>
@@ -187,20 +190,21 @@
                                             <div class="form-elem">
                                                 <label for="" class="form-label">Start Date</label>
                                                 <input name="exp_start_date" type="date"
-                                                    class="form-control exp_start_date" id="" onkeyup="generateCV()">
+                                                    class="form-control exp_start_date" id="" onkeyup="generateCV()"
+                                                    required>
                                                 <span class="form-text"></span>
                                             </div>
                                             <div class="form-elem">
                                                 <label for="" class="form-label">End Date</label>
                                                 <input name="exp_end_date" type="date" class="form-control exp_end_date"
-                                                    id="" onkeyup="generateCV()">
+                                                    id="" onkeyup="generateCV()" required>
                                                 <span class="form-text"></span>
                                             </div>
                                             <div class="form-elem">
                                                 <label for="" class="form-label">Description</label>
                                                 <input name="exp_description" type="text"
                                                     class="form-control exp_description" id="" onkeyup="generateCV()"
-                                                    autocomplete="off">
+                                                    autocomplete="off" required>
                                                 <span class="form-text"></span>
                                             </div>
                                         </div>
@@ -229,19 +233,19 @@
                                             <div class="form-elem">
                                                 <label for="" class="form-label">School</label>
                                                 <input name="edu_school" type="text" class="form-control edu_school"
-                                                    id="" onkeyup="generateCV()" autocomplete="off">
+                                                    id="" onkeyup="generateCV()" autocomplete="off" required>
                                                 <span class="form-text"></span>
                                             </div>
                                             <div class="form-elem">
                                                 <label for="" class="form-label">Degree</label>
                                                 <input name="edu_degree" type="text" class="form-control edu_degree"
-                                                    id="" onkeyup="generateCV()" autocomplete="off">
+                                                    id="" onkeyup="generateCV()" autocomplete="off" required>
                                                 <span class="form-text"></span>
                                             </div>
                                             <div class="form-elem">
                                                 <label for="" class="form-label">City</label>
                                                 <input name="edu_city" type="text" class="form-control edu_city" id=""
-                                                    onkeyup="generateCV()" autocomplete="off">
+                                                    onkeyup="generateCV()" autocomplete="off" required>
                                                 <span class="form-text"></span>
                                             </div>
                                         </div>
@@ -250,21 +254,22 @@
                                             <div class="form-elem">
                                                 <label for="" class="form-label">Start Date</label>
                                                 <input name="edu_start_date" type="date"
-                                                    class="form-control edu_start_date" id="" onkeyup="generateCV()">
+                                                    class="form-control edu_start_date" id="" onkeyup="generateCV()"
+                                                    required>
                                                 <span class="form-text"></span>
                                             </div>
                                             <div class="form-elem">
                                                 <label for="" class="form-label">End Date</label>
                                                 <input name="edu_graduation_date" type="date"
                                                     class="form-control edu_graduation_date" id=""
-                                                    onkeyup="generateCV()">
+                                                    onkeyup="generateCV()" required>
                                                 <span class="form-text"></span>
                                             </div>
                                             <div class="form-elem">
                                                 <label for="" class="form-label">Description</label>
                                                 <input name="edu_description" type="text"
                                                     class="form-control edu_description" id="" onkeyup="generateCV()"
-                                                    autocomplete="off">
+                                                    autocomplete="off" required>
                                                 <span class="form-text"></span>
                                             </div>
                                         </div>
@@ -277,7 +282,7 @@
                             <button type="button" data-repeater-create value="Add" class="repeater-add-btn">+</button>
                         </div>
                     </div>
-                    <!-- education information starts here -->
+                    <!-- education information ends here -->
 
                     <!-- Projects information starts here -->
                     <div class="cv-form-blk">
@@ -293,20 +298,20 @@
                                             <div class="form-elem">
                                                 <label for="" class="form-label">Project Name</label>
                                                 <input name="proj_title" type="text" class="form-control proj_title"
-                                                    id="" onkeyup="generateCV()" autocomplete="off">
+                                                    id="" onkeyup="generateCV()" autocomplete="off" required>
                                                 <span class="form-text"></span>
                                             </div>
                                             <div class="form-elem">
                                                 <label for="" class="form-label">Project link</label>
                                                 <input name="proj_link" type="text" class="form-control proj_link" id=""
-                                                    onkeyup="generateCV()" autocomplete="off">
+                                                    onkeyup="generateCV()" autocomplete="off" required>
                                                 <span class="form-text"></span>
                                             </div>
                                             <div class="form-elem">
                                                 <label for="" class="form-label">Description</label>
                                                 <input name="proj_description" type="text"
                                                     class="form-control proj_description" id="" onkeyup="generateCV()"
-                                                    autocomplete="off">
+                                                    autocomplete="off" required>
                                                 <span class="form-text"></span>
                                             </div>
                                         </div>
@@ -318,7 +323,7 @@
                             <button type="button" data-repeater-create value="Add" class="repeater-add-btn">+</button>
                         </div>
                     </div>
-                    <!-- Projects information starts here -->
+                    <!-- Projects information ends here -->
 
                     <!-- Skills information starts here -->
                     <div class="cv-form-blk">
@@ -333,7 +338,7 @@
                                         <div class="form-elem">
                                             <label for="" class="form-label">Skill</label>
                                             <input name="skill" type="text" class="form-control skill" id=""
-                                                onkeyup="generateCV()" autocomplete="off">
+                                                onkeyup="generateCV()" autocomplete="off" required>
                                             <span class="form-text"></span>
                                         </div>
 
@@ -345,7 +350,7 @@
                             <button type="button" data-repeater-create value="Add" class="repeater-add-btn">+</button>
                         </div>
                     </div>
-                    <!-- Skills information starts here -->
+                    <!-- Skills information ends here -->
                 </form>
                 <!-- form ended -->
             </div>

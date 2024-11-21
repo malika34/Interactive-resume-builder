@@ -786,3 +786,11 @@ textarea {
         overflow: hidden;
     }
 }
+
+@media print {
+
+    /* Hide the repeater fields */
+    .repeater {
+        display: none !important;
+    }
+}
